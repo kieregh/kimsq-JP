@@ -1,0 +1,17 @@
+#configbox .row  {
+	margin-right: -5px;
+	margin-left: -5px;
+}
+#configbox .row  [class*="col-"] {
+	padding-right: 5px !important;
+	padding-left: 5px !important;
+}
+
+@media (max-width: 767px) {
+	#configbox .row  [class*="col-"] {
+		margin-bottom: 10px
+	}
+	#configbox .btn {
+		width: 100%;
+	}
+}

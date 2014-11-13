@@ -1,0 +1,28 @@
+RewriteEngine On
+
+#기본사이트
+RewriteRule ^(admin)/?$ ./index.php?m=$1&pickmodule=dashboard [L]
+RewriteRule ^(p)/([a-zA-Z0-9_\-]+)/?$ ./index.php?mod=$2 [L]
+RewriteRule ^(c)/([a-zA-Z0-9_\-\/]+)/?$ ./index.php?c=$2 [L]
+RewriteRule ^([0-9]+)/?$ ./index.php?m=forum&uid=$1 [L]
+RewriteRule ^(b)/?$ ./index.php?m=forum [L]
+RewriteRule ^(b)/([a-zA-Z0-9_\-]+)/?$ ./index.php?m=forum&bid=$2 [L]
+RewriteRule ^(b)/([a-zA-Z0-9_\-]+)/([0-9]+)/?$ ./index.php?m=forum&bid=$2&uid=$3 [L]
+RewriteRule ^(b)/([a-zA-Z0-9_\-]+)/write/?$ ./index.php?m=forum&bid=$2&mod=write [L]
+RewriteRule ^(b)/([a-zA-Z0-9_\-]+)/([0-9]+)/s([0-9]+)/?$ ./index.php?m=forum&bid=$2&uid=$3&s=$4 [L]
+RewriteRule ^(b)/([a-zA-Z0-9_\-]+)/([0-9]+)/([0-9]+)/?$ ./index.php?m=forum&bid=$2&uid=$3&CMT=$4#CMT [L]
+RewriteRule ^(b)/([a-zA-Z0-9_\-]+)/([0-9]+)/([0-9]+)/s([0-9]+)/?$ ./index.php?m=forum&bid=$2&uid=$3&CMT=$4&s=$5#CMT [L]
+
+#사이트코드 확장
+RewriteRule ^([a-zA-Z0-9_\-]+)/?$ ./index.php?r=$1 [L]
+RewriteRule ^([a-zA-Z0-9_\-]+)/(admin)/?$ ./index.php?r=$1&m=$2&mdule=$2 [L]
+RewriteRule ^([a-zA-Z0-9_\-]+)/(p)/([a-zA-Z0-9_\-]+)/?$ ./index.php?r=$1&mod=$3 [L]
+RewriteRule ^([a-zA-Z0-9_\-]+)/(c)/([a-zA-Z0-9_\-\/]+)/?$ ./index.php?r=$1&c=$3 [L]
+RewriteRule ^([a-zA-Z0-9_\-]+)/([0-9]+)/?$ ./index.php?r=$1&m=forum&uid=$2 [L]
+RewriteRule ^([a-zA-Z0-9_\-]+)/(b)/?$ ./index.php?r=$1&m=forum [L]
+RewriteRule ^([a-zA-Z0-9_\-]+)/(b)/([a-zA-Z0-9_\-]+)/?$ ./index.php?r=$1&m=forum&bid=$3 [L]
+RewriteRule ^([a-zA-Z0-9_\-]+)/(b)/([a-zA-Z0-9_\-]+)/([0-9]+)/?$ ./index.php?r=$1&m=forum&bid=$3&uid=$4 [L]
+RewriteRule ^([a-zA-Z0-9_\-]+)/(b)/([a-zA-Z0-9_\-]+)/write/?$ ./index.php?r=$1&m=forum&bid=$3&mod=write [L]
+RewriteRule ^([a-zA-Z0-9_\-]+)/(b)/([a-zA-Z0-9_\-]+)/([0-9]+)/s([0-9]+)/?$ ./index.php?r=$1&m=forum&bid=$3&uid=$4&s=$5 [L]
+RewriteRule ^([a-zA-Z0-9_\-]+)/(b)/([a-zA-Z0-9_\-]+)/([0-9]+)/([0-9]+)/?$ ./index.php?r=$1&m=forum&bid=$3&uid=$4&CMT=$5#CMT [L]
+RewriteRule ^([a-zA-Z0-9_\-]+)/(b)/([a-zA-Z0-9_\-]+)/([0-9]+)/([0-9]+)/s([0-9]+)/?$ ./index.php?r=$1&m=forum&bid=$3&uid=$4&CMT=$5&s=$6#CMT [L]

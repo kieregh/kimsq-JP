@@ -1,0 +1,630 @@
+/* ------------------ 공통사항 --------------------*/
+#rb-body {
+	background-color: #eee;
+	padding: 15px 15px 50px;
+	font-family: 'Open Sans', '돋움', dotum, sans-serif;
+}
+
+#rb-body.lang-ko {
+	font-family: '돋움', dotum;
+}
+#rb-body.lang-en {
+	font-family: 'Open Sans', Helvetica, Arial, 'Liberation Sans', sans-serif;
+}
+
+#rb-body .form-control {
+	border-radius: 2px
+}
+.help-block .btn-link {
+	color: #999
+}
+.rb-star-fill {
+	color: #ff9000;
+}
+.rb-header-bottom-line {
+	border-bottom: #dfdfdf solid 1px;
+}
+.rb-device-margin {
+	margin-top: 0;
+}
+#rb-bookmark-dropdown1 {
+	position: absolute;
+	top: 34px;
+	left: -24px;
+	background: #fff;
+	border: #cccccc solid 1px;
+	border-radius: 3px;
+}
+#rb-bookmark-dropdown2 {
+	position: absolute;
+	top: 34px;
+	left: -71px;
+	background: #fff;
+	border: #cccccc solid 1px;
+	border-radius: 3px;
+}
+/* ------------------ navbar --------------------*/
+.navbar-header h2 {
+	padding: 0;
+	margin: 0;
+}
+#rb-body .navbar.navbar-default {
+	border: 1px solid #c9c9c9;
+	/*-webkit-box-shadow: none;*/
+	        /*box-shadow: none;*/
+	background-color: transparent;
+	background-image: none;
+	background-color: #fff
+}
+
+#rb-body .navbar .navbar-brand {
+	text-transform:capitalize;
+}
+#rb-body .navbar .navbar-brand small {
+	padding-left: 5px
+}​
+/* ------------------ tabs --------------------*/
+
+#rb-body .rb-nav-tabs .dropdown-menu > li {
+    border-bottom: #e5e5e5 1px solid;
+}
+#rb-body .rb-nav-tabs .dropdown-menu > li:last-child {
+    border: 0;
+}
+#rb-body .rb-nav-tabs .dropdown-menu > li > a {
+    font-size: 15px;
+    padding: 10px 20px;
+    text-align: left;
+    color: #666;
+    font-weight: bold
+}
+
+#rb-body .rb-nav-tabs .dropdown-menu > li.active {
+	border-bottom: transparent 1px solid;
+}
+
+#rb-body .rb-nav-tabs .dropdown-menu > li.active > a {
+    color: #ffffff;
+}
+
+#rb-body .rb-nav-tabs li a {
+    min-width: 80px;
+    text-align: center;
+    font-size: 14px
+}
+
+#rb-body .rb-nav-tabs {border-bottom: 1px solid #c9c9c9; margin-bottom: 0;}
+#rb-body .rb-nav-tabs > li > a {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    line-height: 20px;
+    border: 1px solid #c9c9c9;
+    border-right: 1px solid transparent;
+    -webkit-border-radius: 1px 1px 0 0;
+    -moz-border-radius: 1px 1px 0 0;
+    border-radius: 1px 1px 0 0;
+    font-weight: bold;
+    /*background: -moz-linear-gradient(top, #ffffff 0%, #f5f5f5 100%);*/
+    /*background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#f5f5f5));*/
+    /*background: -webkit-linear-gradient(top, #ffffff 0%,#f5f5f5 100%);*/
+    /*background: -o-linear-gradient(top, #ffffff 0%,#f5f5f5 100%);*/
+    /*background: -ms-linear-gradient(top, #ffffff 0%,#f5f5f5 100%);*/
+    /*background: linear-gradient(to bottom, #ffffff 0%,#f5f5f5 100%);*/
+    /*filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f5f5f5',GradientType=0 );*/
+    -webkit-box-shadow: inset 0px 1px 0px 0px rgba(255, 255, 255, 1);
+    box-shadow: inset 0px 1px 0px 0px rgba(255, 255, 255, 1);
+    color: #999999;
+}
+
+#rb-body .rb-nav-tabs > li.active > a, 
+#rb-body .rb-nav-tabs > li.active > a:hover, 
+#rb-body .rb-nav-tabs > li.active > a:focus {
+    color: #666666;
+    background: #ffffff;
+    border: 1px solid #c9c9c9;
+    border-right: 1px solid transparent;
+    border-bottom-color: transparent;
+    filter:none;
+}
+#rb-body .rb-nav-tabs > li > a:hover {color: #62aeef;}
+#rb-body .rb-nav-tabs > li > a, .nav-pills > li > a {
+    padding-right: 12px;
+    padding-left: 12px;
+    margin-right: 0px;
+
+}
+
+#rb-body .rb-nav-tabs > li:last-child > a, #rb-body .rb-nav-tabs > li.last-child > a {border-right: 1px solid #c9c9c9;}
+
+#rb-body .tab-content {
+    border: 1px solid #c9c9c9;
+    border-top: 0;
+    padding: 15px 15px 15px 15px;
+    background-color: #fff;
+}
+
+#rb-body .rb-nav-tabs > li > a:hover, #rb-body .rb-nav-tabs > li > a:focus {border-color: #c9c9c9 transparent #c9c9c9 #c9c9c9;}
+#rb-body .rb-nav-tabs > li:last-child > a:hover, #rb-body .rb-nav-tabs > li:last-child > a:focus {border-right-color: #c9c9c9;}
+.nav > li > a:hover, .nav > li > a:focus {text-decoration: none;background-color: #eeeeee;}
+#rb-body .rb-nav-tabs .open .dropdown-toggle, .nav-pills .open .dropdown-toggle, .nav > li.dropdown.open.active > a:hover, .nav > li.dropdown.open.active > a:focus {
+	color: #666666;
+	background-color: inherit;
+	border-color: #c9c9c9;
+}
+
+#rb-body .nav li.dropdown.open .caret, .nav li.dropdown.open.active .caret, .nav li.dropdown.open a:hover .caret, 
+
+#rb-body .nav li.dropdown.open a:focus .caret {
+    border-top-color: #999999;
+    border-bottom-color: #999999;
+    opacity: 1;
+    filter: alpha(opacity=100);
+}
+
+/* ------------------ button --------------------*/
+
+#rb-body .btn {
+	border-radius: 0px;
+	font-size: 14px;
+}
+
+/*page-header*/
+#rb-body .page-header {
+	margin-top: 10px;
+}
+
+
+
+/* ------------------ panel --------------------*/
+
+#rb-body .panel-body.rb-panel-form {
+    background-color: #f5f5f5;
+    padding: 0;
+}
+
+#rb-body .panel-body.rb-panel-form .form-control {
+    border: none;
+    border-radius: 1px;
+}
+
+
+/* ------------------ icon panel --------------------*/
+
+#rb-body .panel .panel-heading.rb-icon {
+	height: auto;
+	padding: 0;
+	position: relative;
+	box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.05);
+	background: #ffffff;
+	background: url();
+	background: -moz-linear-gradient(top, #ffffff 0%, #f5f5f5 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#f5f5f5));
+	background: -webkit-linear-gradient(top, #ffffff 0%,#f5f5f5 100%);
+	background: -o-linear-gradient(top, #ffffff 0%,#f5f5f5 100%);
+	background: -ms-linear-gradient(top, #ffffff 0%,#f5f5f5 100%);
+	background: linear-gradient(to bottom, #ffffff 0%,#f5f5f5 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f5f5f5',GradientType=0 );
+}
+
+#rb-body .panel .panel-heading.rb-icon .icon {
+	float: left;
+	border-right: 1px solid #c9c9c9;
+	width: 41px;
+	height: 100%;
+	box-shadow: none;
+	position: absolute;
+	top: 0;
+	left: 1px;
+	text-align: center;
+}
+
+#rb-body .panel .panel-heading.rb-icon .icon:before {
+	position: absolute;
+	top: 0;
+	left: 1px;
+	width: 38px;
+	height: 97%;
+	content: "";
+	-webkit-box-shadow: inset 0px 1px 0px 0px rgba(255, 255, 255, 1), 0px 1px 0px 0px rgba(255, 255, 255, 1);
+	box-shadow: inset 0px 1px 0px 0px rgba(255, 255, 255, 1), 0px 1px 0px 0px rgba(255, 255, 255, 1);
+}
+
+
+#rb-body .panel .panel-heading.rb-icon .icon:after {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 39px;
+	height: 98%;
+	content: "";
+	-webkit-box-shadow: inset 1px 0px 0px 0px rgba(255, 255, 255, 1), 1px 0px 0px 0px rgba(255, 255, 255, 1);
+	box-shadow: inset 1px 0px 0px 0px rgba(255, 255, 255, 1), 1px 0px 0px 0px rgba(255, 255, 255, 1);
+}
+
+#rb-body .panel .panel-heading.rb-icon .icon i {
+	color: #777777;
+	margin-top: 7px;
+}
+
+#rb-body .panel-heading.rb-icon a {
+    text-decoration: none;
+}
+
+
+#rb-body .panel .panel-heading.rb-icon h4 {
+	margin-top: 0;
+	margin-bottom: 0;
+	font-weight: 700;
+	color: #777777;
+	padding: 11px 0 11px 50px;
+}
+
+#rb-body .panel .panel-heading.rb-icon h4 .pull-right .btn {
+	margin-top: -3px;
+	margin-right: 10px;
+	border: none;
+	background-image: none;
+	background-color: #eee; 
+	border-radius: 4px;
+	outline: 0;
+	-webkit-box-shadow: inset 0 3px 5px rgba(0,0,0,.125);
+	/*box-shadow: inset 0 3px 5px rgba(0,0,0,.125);*//* ie 에서 화면떨림 버그 발생*/
+}
+
+#rb-body .panel .panel-heading.rb-icon h4 .pull-right .btn.collapsed {
+	border-width: 1px;
+	color: #999;
+	background-color: transparent;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+
+#rb-body .panel-heading.rb-icon .accordion-toggle:after {
+	font-family: 'FontAwesome';
+	content: "\f107";
+	position: absolute;
+	right: 10px;
+	top: 12px;
+}
+
+#rb-body .panel-heading.rb-icon .accordion-toggle.collapsed:after {
+	content: "\f105";
+}
+/* ------------------ table --------------------*/
+#rb-body .table {
+
+}
+
+
+
+
+
+
+/* ------------------ Rb smart form --------------------*/
+.rb-form .checkbox, 
+.rb-form .checkbox-inline,
+.rb-form .radio,
+.rb-form .radio-inline  {
+	position: relative;
+	font-weight: 400;
+}
+
+.rb-form .checkbox i, 
+.rb-form .checkbox-inline i,
+.rb-form .radio i,
+.rb-form .radio-inline i {
+	border-color: #BDBDBD;
+	transition: border-color .3s;
+	-o-transition: border-color .3s;
+	-ms-transition: border-color .3s;
+	-moz-transition: border-color .3s;
+	-webkit-transition: border-color .3s;
+}
+
+.rb-form .checkbox input, 
+.rb-form .checkbox-inline input,
+.rb-form .radio input,
+.rb-form .radio-inline input {
+	position: absolute;
+	left: -9999px;
+}
+
+.rb-form .checkbox input:checked+i, 
+.rb-form .checkbox-inline input:checked+i,
+.rb-form .radio input:checked+i,
+.rb-form .radio-inline input:checked+i {
+	border-color: #3276B1;
+}
+
+.rb-form .checkbox input:checked+i:after, 
+.rb-form .checkbox-inline input:checked+i:after,
+.rb-form .radio input:checked+i:after,
+.rb-form .radio-inline input:checked+i:after {
+	opacity: 1;
+}
+
+.rb-form .checkbox-inline input+i:after,
+.rb-form .checkbox input+i:after {
+	content: '\f00c';
+	top: -2px;
+	left: 0;
+	width: 15px;
+	height: 15px;
+	font: 400 16px/19px FontAwesome;
+	text-align: center;
+}
+
+.rb-form .checkbox input+i:after,
+.rb-form .checkbox-inline input+i:after {
+	color: #3276B1;
+}
+
+.rb-form .checkbox input+i:after, 
+.rb-form .checkbox-inline input+i:after,
+.rb-form .radio input+i:after,
+.rb-form .radio-inline input+i:after {
+	position: absolute;
+	opacity: 0;
+		transition: opacity .1s;
+		-o-transition: opacity .1s;
+		-ms-transition: opacity .1s;
+		-moz-transition: opacity .1s;
+		-webkit-transition: opacity .1s;
+}
+
+.rb-form .checkbox, 
+.rb-form .checkbox-inline, 
+.rb-form .radio,
+.rb-form .radio-inline {
+	margin-bottom: 4px;
+	padding-left: 23px;
+	line-height: 25px;
+	color: #404040;
+	cursor: pointer;
+}
+
+.rb-form .checkbox i, 
+.rb-form .checkbox-inline i,
+.rb-form .radio i,
+.rb-form .radio-inline i {
+	position: absolute;
+	top: 4px;
+	left: 0;
+	display: block;
+	width: 17px;
+	height: 17px;
+	outline: 0;
+	border-width: 1px;
+	border-style: solid;
+	background: #FFF;
+}
+
+.rb-form .radio label,
+.rb-form .radio-inline label, 
+.rb-form .checkbox label,
+.rb-form .checkbox-inline label {
+	padding-left: 0; 
+}
+
+.rb-form.form-horizontal .radio, 
+.rb-form.form-horizontal .checkbox, 
+.rb-form.form-horizontal .radio-inline, 
+.rb-form.form-horizontal .checkbox-inline {
+	padding-top: 0; 
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.rb-form .checkbox:hover i,
+.rb-form .checkbox-inline:hover i,
+.rb-form .radio:hover i,
+.rb-form .radio-inline:hover i {
+    border-color: #5d98cc;
+}
+
+.rb-form .radio i ,
+.rb-form .radio-inline i {
+	border-radius: 50%;
+}
+
+.rb-form .radio input+i:after,
+.rb-form .radio-inline input+i:after {
+	content: '';
+	top: 3px;
+	left: 3px;
+	width: 9px;
+	height: 9px;
+	border-radius: 50%;
+}
+
+.rb-form .radio input+i:after,
+.rb-form .radio-inline input+i:after {
+	background-color: #3276B1;
+}
+
+.rb-form .radio-inline+.radio-inline, 
+.rb-form .checkbox-inline+.checkbox-inline {
+	margin-left: 20px;
+}
+
+.rb-help-btn:active, 
+.rb-help-btn.active {
+	background-color: #eee !important;
+}
+/* ------------------ 즐겨찾기 --------------------*/
+
+
+
+
+
+/* ------------------ 토글 레이어 --------------------*/
+#bs-example-navbar-collapse-1 .rb-toggle-layer {
+    padding: 0;
+    text-shadow: none;
+}
+#bs-example-navbar-collapse-1 .rb-toggle-layer .panel {
+    margin: 0;
+    border: none;
+    padding: 0;
+}
+
+#bs-example-navbar-collapse-1 .rb-toggle-layer .panel-title {
+	line-height: 30px;
+	font-weight: bold;
+	font-size: 14px
+}
+
+#bs-example-navbar-collapse-1 .rb-toggle-layer .list-group {
+    max-height: 450px;
+    max-height:         calc(100vh - 300px);
+    max-height:    -moz-calc(100vh - 300px);
+    max-height: -webkit-calc(100vh - 300px);
+    overflow: auto;
+}
+
+#bs-example-navbar-collapse-1 .rb-toggle-layer .panel-footer a {
+    display: block;
+    text-align: center;
+    font-weight: normal;
+    color: #777
+}
+
+
+/* ------------------ 풀사이즈 편집 --------------------*/
+.rb-fullsize {
+	position: fixed;
+	z-index: 1000000;
+	top: -35px;
+	left: 0; 
+	right: 0;
+	bottom: 0
+	width: 100%;
+	height: 100%;
+}
+.rb-fullsize textarea {
+	position: fixed;
+	top: 47px;
+	left: 3px; 
+	width: 99.5%;
+	height: 100%;
+}
+.rb-fullsize .rb-submit button {
+	position: fixed;
+	bottom: 5px;
+	width: 99%;
+	height: 40px;
+	font-weight: bold;
+	font-size: 18px;
+	margin: 0 5px 0 5px;
+}
+
+/* ------------------ 스크롤 바 --------------------*/
+.rb-scrollbar::-webkit-scrollbar {
+    width : 7px;
+    height: 7px;
+}
+
+.rb-scrollbar::-webkit-scrollbar-thumb {
+    opacity: 0.0;
+}
+
+.rb-scrollbar:hover::-webkit-scrollbar-thumb {
+    opacity: 0.7;
+    background: #8B8B8D;
+    border-radius: 20px;
+    -webkit-transition: all 2s ease-in-out;
+            transition: all 2s ease-in-out
+}
+
+
+
+/* ------------------ footer --------------------*/
+.rb-admin-footer {
+	padding-top: 40px;
+	padding-bottom: 0;
+	margin-top: 0;
+	color: #777;
+	text-align: center;
+}
+
+
+/* ------------------ modal close --------------------*/
+.rb-close-white { 
+    color: #fff; 
+    text-shadow: 0 1px 0 #ffffff; 
+    opacity: 1; 
+    filter: alpha(opacity=100); 
+    line-height: 30px;
+}
+/* ------------------ 모바일 디바이스 접속 --------------------*/
+#rb-body.rb-device-connect {
+	overflow-x: hidden;
+}
+#rb-body.rb-device-connect .rb-nav-tabs {
+	margin-top: 36px;
+}
+#rb-body.rb-device-connect .rb-nav-tabs,
+#rb-body.rb-device-connect .tab-content {
+	margin-left: -15px;
+	margin-right: -15px;
+}
+#rb-body.rb-device-connect .mobile-tabs li {
+	width: 33.3333%;
+}
+
+/* ------------------ 기타 --------------------*/
+#rb-body .rb-modal-dashboard {
+	font-size: 18px;
+	cursor: pointer;
+	position: relative;
+	top: 8px;
+}
+#rb-body.rb-device-connect .rb-modal-dashboard {
+	font-size: 14px;
+	top: 0;
+}
+#rb-body.rb-device-connect .rb-modal-dashboard i {
+	font-size: 17px;
+}
+/* ------------------ 미디어쿼리 --------------------*/
+@media (min-width: 768px) {
+  #bs-example-navbar-collapse-1 .rb-notifications-layer {
+      width: 260px;
+  }
+}
+@media (max-width: 767px) {
+	#rb-body select.form-control {
+		margin-bottom: 5px;
+	}
+	#rb-body .input-group select.form-control {
+		margin-bottom: 0;
+	}
+}
+@media (min-width:992px) {
+    #rb-body .rb-nav-tabs > li:first-child > a {
+        -webkit-border-radius: 4px 0 0 0;
+        -moz-border-radius: 4px 0 0 0;
+        border-radius: 4px 0 0 0;
+    }
+
+    #rb-body .rb-nav-tabs > li:last-child > a {
+        -webkit-border-radius: 1px 4px 0 0;
+        -moz-border-radius: 1px 4px 0 0;
+        border-radius: 1px 4px 0 0;
+    }
+    #rb-body .tab-content  {
+        -webkit-border-radius: 0 0 4px 4px;
+        -moz-border-radius: 0 0 4px 4px;
+        border-radius: 0 0 4px 4px;
+    }
+}
+@media (max-width: 991px) {
+
+	#rb-body .rb-nav-tabs.rb-item-03 li {
+	    width: 33.3%;
+	}
+	#rb-body .rb-nav-tabs.rb-item-04 li {
+	    width: 25%;
+	}
+}
+

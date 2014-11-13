@@ -1,0 +1,33 @@
+#update-body {
+	padding: 0 10px 10px 10px;
+}
+#update-body .version  {
+	font-style: normal;
+	font-weight: bold;
+	font-size: 28px;
+	font-family: arial;
+}
+#update-body .version i {
+	font-style: normal;
+}
+#update-body th,
+#update-body td {
+	text-align: center;
+}
+#update-body td span {
+	display: block;
+	padding-top: 8px;
+}
+#update-body td .rb-update-download {
+	color: #333;
+}
+
+@media (max-width: 767px) {
+	#update-body {
+		margin-left: -13px;
+		margin-right: -13px;
+	}
+	#update-body .well ul {
+		padding-left: 20px;
+	}
+}

@@ -1,0 +1,127 @@
+.rb-tree {
+    font-family: 'Open Sans','돋움', dotum, sans-serif, FontAwesome;
+}
+
+.rb-tree ul {
+	padding-left: 0;
+}
+
+.rb-tree > ul {
+	padding-left: 20px;
+}
+
+.rb-tree li {
+	list-style-type: none;
+	position: relative;
+}
+
+
+.rb-tree li::before, 
+.rb-tree li::after {
+	content: '';
+	left: -15px;
+	position: absolute;
+	right: auto;
+}
+
+.rb-tree li:before {
+	border-left: 1px solid #ccc;
+	bottom: 50px;
+	height: 100%;
+	top: -8px;
+	width: 1px;
+}
+
+.rb-tree li:last-child::before {
+	height: 20px;
+}
+
+.rb-tree li:after {
+	border-top: 1px solid #ccc;
+	height: 20px;
+	top: 11px;
+	width: 15px;
+}
+
+.rb-tree a.rb-branch, 
+.rb-tree a.rb-leaf {
+	color: #969494
+}
+
+.rb-tree a {
+	text-decoration: none;
+	line-height: 1.8;
+	color: #666
+}
+
+.rb-tree a:active {
+	outline: none;
+}
+
+.rb-tree.rb-root {
+	padding-left: 0;
+}
+
+.rb-tree .panel {
+	margin-bottom: 0;
+	background-color: transparent;
+	border:none;
+	border-radius: 0;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+
+.rb-tree .rb-active {
+	font-weight: bold;
+	color: #428bca;
+	padding: 3px 7px 2px 15px;
+}
+
+
+.rb-tree .rb-branch.collapsed:before {
+	position: absolute;
+	left: 0;
+	z-index: 1;
+	content: "\f196";
+}
+
+.rb-tree .rb-branch:before {
+	position: absolute;
+	/*left: -7px;*/
+	z-index: 1;
+	content: "\f147";
+}
+
+.rb-tree .rb-leaf:before {
+	content: "";
+}
+
+.rb-tree span	{
+	padding-left: 15px;
+}
+.rb-tree a.rb-leaf+a span {
+		padding-left: 3px;
+}
+.rb-tree small	{
+	color: #999;
+}
+.rb-tree input	{
+	position: relative;
+	top: 1px;
+	left: 3px;
+	margin-right: 7px;
+}
+.rb-tree i	{
+	top: 1px;
+	left: 4px;
+	font-size: 11px;
+	color: #666;
+}
+
+.rb-tree a u {
+	color: #ccc;
+	text-decoration: none;
+}
+.rb-tree .rb-active u {
+	color: #428bca;
+}

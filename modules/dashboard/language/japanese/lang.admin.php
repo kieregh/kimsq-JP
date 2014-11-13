@@ -1,0 +1,32 @@
+<?php
+$lang['dashboard']['a1001'] ='更新内容見る';
+$lang['dashboard']['a1002'] ='情報がない更新です。';
+$lang['dashboard']['a1003'] ='更新があります。';
+$lang['dashboard']['a1004'] ='本当に更新しますか？';
+$lang['dashboard']['a1005'] ='設定されたウィジェットがありません。';
+$lang['dashboard']['a1006'] ='ウィジェットを使用してOOO様だけのダッシュボードを飾ってみてください。';
+$lang['dashboard']['a1007'] ='頻繁に使用するウィジェットをお好きな場所に配置することができます。';
+$lang['dashboard']['a1008'] ='ダッシュボードデザイン';
+$lang['dashboard']['a1009'] ='隠す';
+$lang['dashboard']['a1010'] ='折り/開く';
+$lang['dashboard']['a2001'] ='生成';
+$lang['dashboard']['a2002'] ='新し生成';
+$lang['dashboard']['a2003'] ='サイト';
+$lang['dashboard']['a2004'] ='メニュー';
+$lang['dashboard']['a2005'] ='ページ';
+$lang['dashboard']['a2006'] ='インストール';
+$lang['dashboard']['a2007'] ='拡張要素追加';
+$lang['dashboard']['a2008'] ='パッケージページ';
+$lang['dashboard']['a2009'] ='モジュール';
+$lang['dashboard']['a2010'] ='レイアウト';
+$lang['dashboard']['a2011'] ='ウィジェット';
+$lang['dashboard']['a2012'] ='スイッチ';
+$lang['dashboard']['a2013'] ='プラグイン';
+$lang['dashboard']['a2014'] ='ダッシュボ?ド';
+$lang['dashboard']['a2015'] ='その他の';
+$lang['dashboard']['a2016'] ='Q市场';
+$lang['dashboard']['a3001'] ='ダッシュボードウィジェットリスト';
+$lang['dashboard']['a3002'] ='全体選択';
+$lang['dashboard']['a3003'] ='全体キャンセル';
+$lang['dashboard']['a3004'] ='確認';
+?>

@@ -1,0 +1,118 @@
+#rb-page-source {
+
+}
+#rb-page-source .panel-body {
+	padding: 0;
+}
+#rb-page-source .panel-body textarea {
+	border: 0;
+	font-family:"Courier new",arial,dotum;
+	background: #000;
+	color: #fff;
+}
+
+#rb-page-source .panel-title {
+
+}
+
+#rb-page-widget {
+
+}
+#rb-page-widget .posrel {
+	position: relative;
+	height: 700px;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	overflow: auto;
+}
+
+.rb-codeview {
+	border-top: 1px solid #dfdfdf;
+}
+
+.rb-codeview-header,
+.rb-codeview-footer {
+	font: 12px "Helvetica Neue", Helvetica, arial, freesans, clean, sans-serif;
+	text-shadow: 1px 1px rgba(255,255,255,0.8);
+	overflow: hidden;
+	color: #999;
+}
+
+.rb-codeview-header .breadcrumb {
+	background-color: transparent;
+	margin-bottom: 0;
+	padding: 0;
+	line-height: 30px
+}
+
+.rb-codeview-header .btn {
+	line-height: 20px;
+	margin-top: 4px;
+	border-radius: 3px
+}
+
+.rb-codeview-header {
+	border-bottom: 1px solid #ddd;
+	padding: 5px 10px;
+	text-shadow: 0 1px 0 #fff;
+	border-bottom: 1px solid #d8d8d8;
+	background-color: #eaeaea;
+	background-image: -moz-linear-gradient(#fafafa, #eaeaea);
+	background-image: -webkit-linear-gradient(#fafafa, #eaeaea);
+	background-image: linear-gradient(#fafafa, #eaeaea);
+	background-repeat: repeat-x;
+}
+
+.rb-codeview-body {
+	font-family: Consolas, "Liberation Mono", Courier, monospace;
+}
+
+.rb-codeview-body textarea {
+	overflow: auto;
+	border: none;
+	padding: 15px;
+	line-height: 150%;
+	background: #000000;
+	color: #ffffff;
+	font-size: 12px;
+	border-radius: 0
+}
+
+.rb-codeview-footer {
+	border-top: 1px solid #ddd;	
+	padding: 10px;
+	background-color: #e8e8e8;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#fafafa), to(#e8e8e8));
+	background-image: -webkit-linear-gradient(#fafafa, #e8e8e8);
+	background-image: linear-gradient(#fafafa, #e8e8e8);
+	background-repeat: repeat-x;
+}
+
+.rb-codeview-footer ul {
+	margin-bottom: 0
+}
+
+.rb-codeview-footer li:first-child,
+.rb-codeview-footer li:last-child {
+	border-left: 0;
+	box-shadow: inset 0 0 0 transparent;
+	padding-left: 0;
+	margin-left: 0;
+}
+
+.rb-codeview-footer li {
+	display: inline-block;
+	color: #555555;
+	padding-left: 9px;
+	margin-left: 5px;
+	border-left: 1px solid #c1c1c1;
+	box-shadow: inset 1px 0 0 #fff;
+	font-size: 12px;
+}
+
+.rb-top-btnbox {
+	position: relative;
+	top:-10px;
+}

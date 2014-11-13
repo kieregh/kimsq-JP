@@ -1,0 +1,32 @@
+<?php
+$lang['dashboard']['a1001'] ='查看更新内容';
+$lang['dashboard']['a1002'] ='无信息的升级。';
+$lang['dashboard']['a1003'] ='有升级。';
+$lang['dashboard']['a1004'] ='要升级吗？';
+$lang['dashboard']['a1005'] ='无设定的 widgets。';
+$lang['dashboard']['a1006'] ='利用widgets制作 000独具的dashboard。';
+$lang['dashboard']['a1007'] ='陈列在经常使用的，需要widgets的位置。';
+$lang['dashboard']['a1008'] ='dashboard设计';
+$lang['dashboard']['a1009'] ='隐藏';
+$lang['dashboard']['a1010'] ='折叠/展开';
+$lang['dashboard']['a2001'] ='生成';
+$lang['dashboard']['a2002'] ='从新生成';
+$lang['dashboard']['a2003'] ='网站';
+$lang['dashboard']['a2004'] ='菜单';
+$lang['dashboard']['a2005'] ='网页';
+$lang['dashboard']['a2006'] ='设置';
+$lang['dashboard']['a2007'] ='追加扩张要素';
+$lang['dashboard']['a2008'] ='package';
+$lang['dashboard']['a2009'] ='模块';
+$lang['dashboard']['a2010'] ='Layout';
+$lang['dashboard']['a2011'] ='widget';
+$lang['dashboard']['a2012'] ='Switch';
+$lang['dashboard']['a2013'] ='插件';
+$lang['dashboard']['a2014'] ='dashboard';
+$lang['dashboard']['a2015'] ='其他';
+$lang['dashboard']['a2016'] ='Q市场';
+$lang['dashboard']['a3001'] ='dashboard widgets目录';
+$lang['dashboard']['a3002'] ='全体选择';
+$lang['dashboard']['a3003'] ='全体取消';
+$lang['dashboard']['a3004'] ='确认';
+?>

@@ -1,0 +1,32 @@
+<?php
+$lang['domain']['a1001'] ='连接 域名。';
+$lang['domain']['a1002'] ='无登录的域名 。';
+$lang['domain']['a1003'] ='调停程序';
+$lang['domain']['a1004'] ='无登录网址或是2次域名。';
+$lang['domain']['a1005'] ='登录2次域名';
+$lang['domain']['a1006'] ='登录1次域名';
+$lang['domain']['a1007'] ='域名登录信息';
+$lang['domain']['a1008'] ='所属域名';
+$lang['domain']['a1009'] ='最上位域名。';
+$lang['domain']['a1010'] ='域名地址';
+$lang['domain']['a1011'] ='登录2次域名。';
+$lang['domain']['a1012'] ='删除';
+$lang['domain']['a1013'] ='要删除吗？';
+$lang['domain']['a1014'] ='若删除1次域名，则删除所有所属2次域名。';
+$lang['domain']['a1015'] ='助言';
+$lang['domain']['a1016'] ='输入时除http://或https://。';
+$lang['domain']['a1017'] ='连接网站';
+$lang['domain']['a1018'] ='不指定';
+$lang['domain']['a1019'] ='无登录的网站 。';
+$lang['domain']['a1020'] ='属性変更';
+$lang['domain']['a1021'] ='登录';
+$lang['domain']['a1022'] ='取消登记';
+$lang['domain']['a1023'] ='上网';
+$lang['domain']['a1024'] ='有必要通过域名供应业体设定名服务器和网上服务器。';
+$lang['domain']['a1025'] ='输入时除http://或‘https://。';
+$lang['domain']['a1026'] ='可登录到2次域名，也可指定端口。';
+$lang['domain']['a1027'] ='未登录域名时，接上第一个网站。';
+$lang['domain']['a1028'] ='请输入域名。';
+$lang['domain']['a1029'] ='域名只能使用英文小写/_/-/.和数字。';
+$lang['domain']['a1030'] ='登录';
+?>

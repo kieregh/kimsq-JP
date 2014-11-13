@@ -1,0 +1,107 @@
+html, body {
+	height: 100%;
+}
+
+body {
+	background-color: #EEEEEE !important;
+	font-family: 'Open Sans', "돋움", dotum,'나눔고딕', 'Nanum Gothic',  sans-serif, FontAwesome, kimsq !important;
+}
+
+.rb-root {
+	display: table;
+	height: 100%;
+	width: 100%;
+	padding: 0;
+}
+
+#rb-login {
+	display: table-cell;
+	text-align: left;
+	margin: 0 auto;
+	padding: 10% 0 100px;
+}
+
+#rb-login .panel {
+	margin:0 auto 15px;
+	background-color: #fbfbfb;
+	border: 1px solid #AAA;
+	border-bottom: 1px solid #888;
+	border-radius: 3px;
+	color: #444;
+	box-shadow: 0px 2px 2px #AAA;
+}
+
+#rb-login .panel .form-group label {
+	font-weight: normal;
+}
+
+#rb-login .panel .form-control.input-lg {
+	border-radius: 2px;
+}
+
+#rb-login .panel-footer ul {
+	margin-bottom: 0	
+}
+
+#rb-login .panel-foote a {
+	font-size: 90%;
+}
+
+
+/* bootbox */
+
+.bootbox .modal-footer {
+	margin-top: 0;
+	background-color: #f2f2f2;
+}
+
+.bootbox .modal-footer .btn-default {
+	float: left;
+}
+
+.bootbox .media-heading {
+	font-weight: bold;
+	margin-bottom: 8px
+}
+
+
+/*반응형 설정*/
+
+@media (min-width: 481px) {
+	#rb-login .panel {
+		width: 350px;
+	}	
+}
+
+@media (max-width: 480px) {
+	body {
+		background-color: #fff !important
+	}
+
+	#rb-login {
+		padding: 0;
+	}
+
+	#rb-login .panel {
+		box-shadow : none;
+		border: none;
+		border-radius: none;
+		background-color: inherit;
+	}
+
+	#rb-login .panel-footer {
+		background-color: transparent;
+	}
+
+	#rb-login h1 {
+		font-size: 20px
+	}
+
+	#rb-login .btn.btn-primary {
+		width: 100%;
+		padding: 10px 16px;
+		font-size: 18px;
+		line-height: 1.33;
+		border-radius: 6px;
+	}
+}

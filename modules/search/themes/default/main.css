@@ -1,0 +1,77 @@
+#rb-search-body .page-header {
+    margin-top: 0;
+    margin-bottom: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+} 
+#rb-search-body .page-header h1 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: bold;
+} 
+#rb-search-body .page-header .btn {
+    font-weight: bold;
+} 
+
+#rb-search-body .form-horizontal .control-label {
+    text-align: left;
+}
+
+#rb-search-body .rb-sortbar h3 ,
+#rb-search-body .rb-sortbar .btn-group {
+	margin: 0
+}
+
+#rb-search-body .rb-sortbar h3  {
+	font-size: 14px;
+	line-height: 32px
+}
+
+#rb-search-body .rb-panel {
+	border: 0;
+}
+#rb-search-body .rb-panel .rb-panel-heading h4 {
+	font-weight: bold;
+}
+#rb-search-body .rb-panel .rb-panel-heading small {
+	font-size: 11px;
+	font-weight: normal;
+}
+#rb-search-body .rb-panel .rb-panel-body {
+	padding: 20px 14px 20px 14px;
+}
+#rb-search-body .rb-panel .rb-panel-footer {
+	text-align: center;
+}
+#rb-search-body .rb-panel .rb-panel-footer ul {
+	padding: 5px 0 0 0;
+	margin: 0;
+}
+#rb-search-body .rb-panel .rb-panel-footer .rb-more-search {
+	text-align: right;
+}
+#rb-search-body .rb-panel .rb-panel-heading,
+#rb-search-body .rb-panel .rb-panel-footer {
+	background-color: transparent !important;
+}
+
+#rb-searchresult-none,
+#rb-searchpage-none {
+	margin-top: 20px;
+	text-align: center;
+}
+#rb-searchresult-none .jumbotron,
+#rb-searchpage-none .jumbotron {
+	background-color: transparent !important;
+}
+#rb-searchresult-none i,
+#rb-searchpage-none i {
+	font-size: 200px;
+}
+
+@media (max-width: 768px) {
+
+	#rb-search-body .page-header {
+    	margin-bottom: 10px;
+	} 
+}
